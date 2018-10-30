@@ -179,7 +179,7 @@ while True:
 #Hello and welcome to our program  that uses clocks Yay! Do you want to take part in our program? Y or N. Y
 #Do you see your world as negative or positive [-/+]? +
 #The time is now. Your reaction to that bracing thought? Sfds
-#(#10.916666666666668, 55)
+#(10.916666666666668, 55)
 #How will you change the time? in HH:MM format 5:40
 #(4.583333333333332, 35)
 #Once more [Y/N]Y
