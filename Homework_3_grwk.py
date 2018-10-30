@@ -11,6 +11,7 @@ import turtle
 import time
 import sys
 import HW3fxns
+
 #variables which we will call later in the program
 PosNum = ("12","1","2","3","4","5","6","7","8","9","10","11") #numbers that will be printed out 
 NegNum = ("-12","-11","-10","-9","-8","-7","-6","-5","-4","-3","-2","-1") #numbers that will be printed out
@@ -23,7 +24,6 @@ Chat text which will be called throughout the program
 ChaText = ["Hello and welcome to our program  that uses clocks Yay! Do you want to take part in our program? Y or N. ",\
            "Once more [Y/N]", "Do you see your world as negative or positive [-/+]? ","How do you rate your world this time, plus or minus [+/-]? ",\
            "The time is now. Your reaction to that bracing thought? ", "The time is still now. Your reaction? ", "How will you change the time? in HH:MM format "]  
-
 
 while True:
 
@@ -67,7 +67,7 @@ while True:
             NewHours = HW3fxns.convert_validate_int(HHMM[0])
             NewMinutes = HW3fxns.convert_validate_int(HHMM[1])
             if NewHours == None or NewMinutes == None:
-                print(str(NewHours)+" "+ str(NewMinutes) + ' is not a valid response, try again')
+                print(str(NewHours)+" " str(NewMinutes) + ' is not a valid response, try again')
                 continue
             (joe,canvas) = HW3fxns.turtle_init("red", "black", 3, 0, "classic" )
             HW3fxns.draw_clock(joe, radius+100, '+' , respon)
@@ -89,7 +89,7 @@ while True:
             NewHours = HW3fxns.convert_validate_int(HHMM[0])
             NewMinutes = HW3fxns.convert_validate_int(HHMM[1])
             if NewHours == None or NewMinutes == None:
-                print(str(NewHours)+" "+ str(NewMinutes) + ' is not a valid response, try again')
+                print(str(NewHours)+" " str(NewMinutes) + ' is not a valid response, try again')
                 continue
             (joe,canvas) = HW3fxns.turtle_init("green", "black", 3, 0, "classic" )
             HW3fxns.draw_clock(joe,radius+ 100, '-' , respon)
@@ -117,7 +117,7 @@ while True:
             NewHours = HW3fxns.convert_validate_int(HHMM[0])
             NewMinutes = HW3fxns.convert_validate_int(HHMM[1])
             if NewHours == None or NewMinutes == None:
-                print(str(NewHours)+" "+ str(NewMinutes) + ' is not a valid response, try again')
+                print(str(NewHours)+" " str(NewMinutes) + ' is not a valid response, try again')
                 continue
             (joe,canvas) = HW3fxns.turtle_init("green", "black", 3, 0, "classic" )
             HW3fxns.draw_clock(joe,radius+ 100, '+' , respon)
@@ -138,7 +138,7 @@ while True:
             NewHours = HW3fxns.convert_validate_int(HHMM[0])
             NewMinutes = HW3fxns.convert_validate_int(HHMM[1])
             if NewHours == None or NewMinutes == None:
-                print(str(NewHours)+" "+ str(NewMinutes) + ' is not a valid response, try again')
+                print(str(NewHours)+" " str(NewMinutes) + ' is not a valid response, try again')
                 continue
             (joe,canvas) = HW3fxns.turtle_init("green", "black", 3, 0, "classic" )
             HW3fxns.draw_clock(joe,radius+ 100, '-' , respon)
@@ -179,7 +179,7 @@ while True:
 #Hello and welcome to our program  that uses clocks Yay! Do you want to take part in our program? Y or N. Y
 #Do you see your world as negative or positive [-/+]? +
 #The time is now. Your reaction to that bracing thought? Sfds
-(#10.916666666666668, 55)
+#(#10.916666666666668, 55)
 #How will you change the time? in HH:MM format 5:40
 #(4.583333333333332, 35)
 #Once more [Y/N]Y
