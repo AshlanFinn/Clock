@@ -70,7 +70,6 @@ def clock_hands(terrapin, time, disp_hh, disp_mm, radius):
     time = list(time)
     mm = (time[4] + disp_mm) % 60
     hh = (time[3] + disp_hh + (time[4] + disp_mm)/60) % 12 
-    print( (hh,mm))
     terrapin.pendown()
     terrapin.right(hh * 30)
     terrapin.forward(radius/2)
