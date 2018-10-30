@@ -1,4 +1,4 @@
-###n our honor, as CCSF students, we Ashlan Finn and Jennifer Garcia have neither given or received inappropriate help with this assignment.
+###On our honor, as CCSF students, we Ashlan Finn and Jennifer Garcia have neither given or received inappropriate help with this assignment.
 ###
 
 #Step 1:We will import all of the background information we need for our program to function
@@ -67,7 +67,7 @@ while True:
             NewHours = HW3fxns.convert_validate_int(HHMM[0])
             NewMinutes = HW3fxns.convert_validate_int(HHMM[1])
             if NewHours == None or NewMinutes == None:
-                print(test + ' is not a valid response, try again')
+                print(str(NewHours)+" " str(NewMinutes) + ' is not a valid response, try again')
                 continue
             (joe,canvas) = HW3fxns.turtle_init("red", "black", 3, 0, "classic" )
             HW3fxns.draw_clock(joe, radius+100, '+' , respon)
@@ -89,7 +89,7 @@ while True:
             NewHours = HW3fxns.convert_validate_int(HHMM[0])
             NewMinutes = HW3fxns.convert_validate_int(HHMM[1])
             if NewHours == None or NewMinutes == None:
-                print(NewHours+" " NewMinutes + ' is not a valid response, try again')
+                print(str(NewHours)+" " str(NewMinutes) + ' is not a valid response, try again')
                 continue
             (joe,canvas) = HW3fxns.turtle_init("green", "black", 3, 0, "classic" )
             HW3fxns.draw_clock(joe,radius+ 100, '-' , respon)
@@ -117,7 +117,7 @@ while True:
             NewHours = HW3fxns.convert_validate_int(HHMM[0])
             NewMinutes = HW3fxns.convert_validate_int(HHMM[1])
             if NewHours == None or NewMinutes == None:
-                print(NewHours+" " NewMinutes + ' is not a valid response, try again')
+                print(str(NewHours)+" " str(NewMinutes) + ' is not a valid response, try again')
                 continue
             (joe,canvas) = HW3fxns.turtle_init("green", "black", 3, 0, "classic" )
             HW3fxns.draw_clock(joe,radius+ 100, '+' , respon)
@@ -138,7 +138,7 @@ while True:
             NewHours = HW3fxns.convert_validate_int(HHMM[0])
             NewMinutes = HW3fxns.convert_validate_int(HHMM[1])
             if NewHours == None or NewMinutes == None:
-                print(NewHours+" " NewMinutes + ' is not a valid response, try again')
+                print(str(NewHours)+" " str(NewMinutes) + ' is not a valid response, try again')
                 continue
             (joe,canvas) = HW3fxns.turtle_init("green", "black", 3, 0, "classic" )
             HW3fxns.draw_clock(joe,radius+ 100, '-' , respon)
